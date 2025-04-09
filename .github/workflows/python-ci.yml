@@ -6,16 +6,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout kood
         uses: actions/checkout@v2
 
-      - name: Set up Python
+      - name: Python installimine
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
 
-      - name: Install dependencies
+      - name: Installida sõltuvused
         run: pip install pytest
 
-      - name: Run tests
+      - name: käivitada testid
         run: pytest
