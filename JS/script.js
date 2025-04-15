@@ -203,9 +203,9 @@ class People {
     const amount = 10;
     let percent = 0;
 
-    if (lvl < 3) percent = getRandomInt(1, 80);
-    else if (lvl > 3) percent = getRandomInt(1, 50);
-    else percent = getRandomInt(0, 20);
+    if (lvl < 3) percent = this.getRandomInt(1, 80);
+    else if (lvl > 3) percent = this.getRandomInt(1, 50);
+    else percent = this.getRandomInt(0, 20);
 
     if (percent > 50) {
       platform.resources = platform.resources - 0;
