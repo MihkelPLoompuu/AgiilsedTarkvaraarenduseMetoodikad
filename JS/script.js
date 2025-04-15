@@ -220,4 +220,7 @@ for (let i = 0; i < 10; i++) {
   lvls.push(lvl);
 }
 
-console.log(lvls);
+lvls.forEach((element) => {
+  element.peoplelist[0].consume(platform1);
+  element.peoplelist[1].consume(platform1);
+});
