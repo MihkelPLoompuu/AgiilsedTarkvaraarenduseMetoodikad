@@ -189,15 +189,33 @@ class Level {
 }
 
 class People {
-  constructor(name, age, item) {
+  constructor(name, age) {
     this.name = name;
     this.age = age;
-    this.item = item;
+  }
+  getRandomInt(min, max) {
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
   }
 
-  consume(platform) {
+  consume(platform, lvl) {
     const amount = 10;
-    platform.resources -= amount;
+    let percent = 0;
+
+    if (lvl < 3) percent = getRandomInt(1, 80);
+    else if (lvl > 3) percent = getRandomInt(1, 50);
+    else percent = getRandomInt(0, 20);
+
+    if (percent > 50) {
+      platform.resources = platform.resources - 0;
+    } else if (percent > 30) {
+      platform.resources = platform.resources - 0;
+    } else if (percent > 10) {
+      platform.resources = platform.resources - 0;
+    } else {
+      platform.resources = platform.resources - amount;
+    }
   }
 }
 
@@ -221,6 +239,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 lvls.forEach((element) => {
-  element.peoplelist[0].consume(platform1);
-  element.peoplelist[1].consume(platform1);
+  element.peoplelist[0].consume(platform1, element.lvl);
+  element.peoplelist[1].consume(platform1, element.lvl);
+  console.log(platform1);
 });
