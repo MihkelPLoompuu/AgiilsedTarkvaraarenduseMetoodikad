@@ -33,6 +33,10 @@ class Player:
         if b.strip().lower() != answers[ques_ran].lower():
             self.health -= 1
             print("Wrong answer! Health reduced.")
+        else:
+            self.energy += 10
+            self.food += 2
+            self.health += 2
 
     def do_turn(self):
         käik = input("Kas tahad puhata? (puhkan,liigun või risk): ")
@@ -50,3 +54,10 @@ class Player:
             print(f"Aega järgi: {self.time_left}")
 
         print("Mäng läbi!")  
+    def kontrolli_rest():
+        # Test 1: piisavalt toitu
+        tegelane = Player(food=5, energy=60)
+        tegelane.rest()
+        assert tegelane.food == 5, f"VIGA: food peaks olema 2, aga on {tegelane.food}"
+        assert tegelane.energy == 60, f"VIGA: energy peaks olema 60, aga on {tegelane.energy}"
+        print("Test läbitud ")
