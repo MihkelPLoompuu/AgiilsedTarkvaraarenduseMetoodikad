@@ -1,3 +1,5 @@
+from numpy import random
+
 questions = [("Ründa","A"), ("muuda oma asukohta", "A"), ("Jää siia", "B"),
  ("Tee oma grupp suuremaks", "B")]
 
@@ -34,9 +36,10 @@ class Player:
             self.health -= 1
             print("Wrong answer! Health reduced.")
         else:
-            self.energy += 10
-            self.food += 2
-            self.health += 2
+            x = random.randint(10)
+            self.energy += x
+            self.food += x
+            self.health += x
 
     def do_turn(self):
         käik = input("Kas tahad puhata? (puhkan,liigun või risk): ")
