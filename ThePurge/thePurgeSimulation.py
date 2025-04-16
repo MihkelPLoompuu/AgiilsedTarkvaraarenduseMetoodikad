@@ -56,9 +56,9 @@ class Player:
             self.time_left -= 1
             print(f"Aega järgi: {self.time_left}")
 
-        print("Mäng läbi!")  
+        print("Mäng läbi!") 
+         
     def kontrolli_rest():
-        # Test 1: piisavalt toitu
         tegelane = Player(food=5, energy=60)
         tegelane.rest()
         assert tegelane.food == 5, f"VIGA: food peaks olema 2, aga on {tegelane.food}"
