@@ -1,0 +1,14 @@
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\bin\Debug\net8.0\ConsoleToDoList.exe
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\bin\Debug\net8.0\ConsoleToDoList.deps.json
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\bin\Debug\net8.0\ConsoleToDoList.runtimeconfig.json
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\bin\Debug\net8.0\ConsoleToDoList.dll
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\bin\Debug\net8.0\ConsoleToDoList.pdb
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.AssemblyInfo.cs
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.dll
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\refint\ConsoleToDoList.dll
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.pdb
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ConsoleToDoList.genruntimeconfig.cache
+C:\Users\opilane\source\repos\ConsoleToDoList\ConsoleToDoList\obj\Debug\net8.0\ref\ConsoleToDoList.dll
